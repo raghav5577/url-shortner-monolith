@@ -53,7 +53,3 @@ When you are done testing, you can stop everything with:
 npx pm2 delete all
 docker rm -f nginx-lb mongo-url redis-url
 ```
-
-
-npx pm2 delete all
-npx pm2 start ecosystem.config.js
